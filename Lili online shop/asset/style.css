@@ -1,0 +1,113 @@
+body{
+    background-color: azure;
+    font-family:Arial, Helvetica, sans-serif ;
+    margin: 0;
+}
+
+header{
+    width: 100%;
+    background-color: #1D1616;
+    border-bottom: 4px solid #8E1616;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img{
+    width: 150px
+    
+}
+
+.logo img:hover {
+    transform: scale(.9)
+    transition: all.5s ease-in-out
+}
+
+nav ul {
+    list-style-type: none;
+    padding:20px;
+    display: flex;
+    margin-right: ;
+}
+
+nav ul li{
+    padding-right: 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-size: larger;
+    color: dimgrey;
+}
+
+nav ul li a:hover {
+ color: black;
+ text-decoration-line: underline;
+ text-underline-offset: 10px;
+ text-decoration-color: #8E1616;
+}
+
+#hero img{
+    width: 100%;
+}
+
+#about {
+
+    background-image: url(./asset/about\ image.gif);
+    background-position: right;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 75vh;
+    padding: 40px;
+    background-color: #f0f1f7;
+}
+
+#about h2 {
+  margin-top: 50px;
+  width: 50%;
+  padding-left: 40px;
+}
+#about p {
+  width: 50%;
+  padding-left: 40px;
+  line-height: 1.7em;
+}
+
+#product h2 {
+    text-align: center;
+    color:blue;
+}
+
+.card-product {
+    width: 95%;
+    margin: 30px auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.card{
+    box-shadow: 0 4px 8px 0 black (0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: monospace;
+}
+
+.price {
+    color: dimgrey;
+    font-size: 22px;
+}
+
+.card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color:snow;
+    background-color: black;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
